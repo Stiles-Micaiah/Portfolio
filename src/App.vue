@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="container-fluid"id="app">
     <Navbar msg="Welcome my friend" />
     <router-view />
   </div>
@@ -14,14 +14,14 @@
     color: #2c3e50;
   }
 
-  #nav {
+  /* #nav {
     padding: 30px;
-  }
+  } */
 
-  #nav a {
+  /* #nav a {
     font-weight: bold;
     color: #2c3e50;
-  }
+  } */
 
   #nav a.router-link-exact-active {
     color: #42b983;
